@@ -98,8 +98,8 @@ public class Lesson2 {
         System.out.println("Enter number of strings");
         int first = in.nextInt();
         System.out.println("Enter your message");
-        String result = " " + mes.nextLine();
-        for (int x = 1; first >= x; x++) {
+        String result = mes.nextLine();
+        for (int x = 1; x <= first; x++) {
             System.out.println(x + ". " + result);
         }
     }
@@ -233,7 +233,7 @@ public class Lesson2 {
         System.out.println();
         return false;
     }
-    //              ---------- Task 10.2 ----------
+    //              ---------- Task 12.3 ----------
     /*Написать метод, которому на вход подается одномерный массив и число n (может
 быть положительным, или отрицательным), при этом метод должен сместить все
 элементы массива на n позиций. Элементы смещаются циклично. Для усложнения
