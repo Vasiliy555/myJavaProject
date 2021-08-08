@@ -1,11 +1,15 @@
 package school.lesson4;
 
 public class Cat extends Animal{
+    private static int quantityCat;
     public Cat(String name) {
-        super(name);
+              super(name);
+        quantityCat++;
 
     }
-
+    public static int getQuantityCat() {
+        return quantityCat;
+    }
 
     public void run(int distance) {
         if (distance <= 200 && distance >= 0) {

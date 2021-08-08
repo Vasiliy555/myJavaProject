@@ -7,6 +7,7 @@ public class AnimalApp {
         Dog dog1 = new Dog("Шарик", "белый");
         Cat cat2 = new Cat("Мурзик");
         Dog dog2 = new Dog("Мухтар", "черный");
+        Cat cat3 = new Cat("Шерстяной");
         animal.run();
         cat1.run(200);
         cat1.swim(15);
@@ -18,7 +19,7 @@ public class AnimalApp {
 
 //4. * Добавить подсчет созданных котов, собак и животных.
         System.out.printf("Количество созданных животных  - %s . \n", Animal.getQuantityAnimals());
-        System.out.printf("Количество созданных котов  - %s . \n", Cat.getQuantityAnimals());
-        System.out.printf("Количество созданных собак  - %s . \n", Dog.getQuantityAnimals());
+        System.out.printf("Количество созданных котов  - %s . \n", Cat.getQuantityCat());
+        System.out.printf("Количество созданных собак  - %s . \n", Dog.getQuantityDog());
     }
 }

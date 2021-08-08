@@ -2,12 +2,15 @@ package school.lesson4;
 
 public class Dog extends Animal {
     String color;
-
+    private static int quantityDog;
     public Dog(String name, String color) {
         super(name);
         this.color = color;
+        quantityDog++;
     }
-
+    public static int getQuantityDog() {
+        return quantityDog;
+    }
 
     public void run(int distance) {
         if (distance <= 500 && distance >= 0) {
