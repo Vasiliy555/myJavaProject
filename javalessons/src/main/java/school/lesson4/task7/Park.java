@@ -6,7 +6,7 @@ public class Park {
     private int cost = 2;
 
 
-    class Att {
+    class Attraction {
 
         public void infoTrain() {
             name = "Поезд";
@@ -29,7 +29,7 @@ public class Park {
 
 
     public static void main(String[] args) {
-        Park.Att info = new Park().new Att();
+        Park.Attraction info = new Park().new Attraction();
 
 
 info.infoTrain();
