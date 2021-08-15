@@ -27,18 +27,20 @@ public class HomeWork {
                 {"1", "2", "3", "hi"}};
 
 
-        try {
+
             try {
                 System.out.println(arrayCheck(array));
             } catch (MyArraySizeException e) {
                 System.out.println("Не подходящий размер массива");
-            }
-        } catch (MyArrayDataException e) {System.out.println("Не удалось преобразовать String в Integer. " +
-                "Ошибка в ячейке "+ (e.a) + " - " + (e.b));}
-
-
-
+            } catch (MyArrayDataException e) {
+                System.out.println("Не удалось преобразовать String в Integer. " +
+                     "Ошибка в ячейке "+ (e.a) + " - " + (e.b));
+         }
     }
+
+
+
+
 
 
 
