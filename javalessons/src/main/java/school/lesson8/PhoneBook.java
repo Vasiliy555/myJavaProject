@@ -23,7 +23,7 @@ public class PhoneBook {
                 }
             }
         } else {
-            System.out.println(surName + " - такого абонента не найдено." );
+            System.out.println(surName + " - абонент не найден." );
         }
     }
 }
